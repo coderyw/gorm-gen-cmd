@@ -2,10 +2,10 @@ package cmd
 
 import (
 	"fmt"
+	"github.com/coderyw/gorm_gen_cmd/generate"
+	"github.com/coderyw/gorm_gen_cmd/model"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"gorm_gen_cmd/generate"
-	"gorm_gen_cmd/model"
 	"os"
 )
 

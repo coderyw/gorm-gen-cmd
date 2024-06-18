@@ -2,13 +2,13 @@ package generate
 
 import (
 	"fmt"
+	"github.com/coderyw/gorm_gen_cmd/model"
 	"github.com/spf13/cobra"
 	"gorm.io/driver/mysql"
 	"gorm.io/gen"
 	"gorm.io/gen/field"
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
-	"gorm_gen_cmd/model"
 	"strings"
 	"time"
 )

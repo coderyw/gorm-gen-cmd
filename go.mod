@@ -1,4 +1,4 @@
-module gorm_gen_cmd
+module github.com/coderyw/gorm_gen_cmd
 
 go 1.21.1
 
