@@ -1,0 +1,6 @@
+host: '192.168.31.34'
+port: '3306'
+database: 'db_user'
+auth: 'root:7JLt5oAnNp'
+tables: null
+outpath: ''
