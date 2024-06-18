@@ -2,7 +2,7 @@ package generate
 
 import (
 	"fmt"
-	"github.com/coderyw/gorm_gen_cmd/model"
+	"github.com/coderyw/gorm-gen-cmd/model"
 	"github.com/spf13/cobra"
 	"gorm.io/driver/mysql"
 	"gorm.io/gen"
@@ -147,7 +147,7 @@ func GenFunc(cfg *model.GenCfg) {
 		"date": func(detailType gorm.ColumnType) (dataType string) {
 			return "string"
 		},
-		//"timestamp": func(detailType gorm.ColumnType) (dataType string) { return "Time" },    // 自定义时间
+		"timestamp": func(detailType gorm.ColumnType) (dataType string) { return "GTime" }, // 自定义时间
 		//"decimal": func(detailType gorm.ColumnType) (dataType string) { return "decimal.Decimal" }, // 金额类型全部转换为第三方库,github.com/shopspring/decimal
 	}
 	// 要先于`ApplyBasic`执行

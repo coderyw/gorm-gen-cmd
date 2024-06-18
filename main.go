@@ -6,7 +6,7 @@
 
 package main
 
-import "github.com/coderyw/gorm_gen_cmd/cmd"
+import "github.com/coderyw/gorm-gen-cmd/cmd"
 
 func main() {
 	cmd.Execute()
