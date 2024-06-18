@@ -1,0 +1,1 @@
+#### Gorm gen command line format
